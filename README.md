@@ -8,7 +8,7 @@ go run sdes.go '8 bit plain text' '10 bit key'
 Example: go run sdes.go 11100101 1011001010
        
 ### Decrypt (add 'd' flag):
-go run sdes.go '8 bit encrypted text' '10 bit key' 
+go run sdes.go '8 bit encrypted text' '10 bit key' d
 
 Example: go run sdes.go 11011111 1011110111 d
 
